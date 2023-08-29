@@ -1,0 +1,12 @@
+let massMark, heightMark, massJohn, heightJohn;
+var markHigherBMI;
+massMark = 78;
+massJohn = 92;
+heightMark = 1.69;
+heightJohn = 1.95;
+BMIMark = massMark / (heightMark * heightMark);
+BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark);
+console.log(BMIJohn);
+markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
